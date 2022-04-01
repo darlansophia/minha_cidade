@@ -1,0 +1,148 @@
+.site{
+    width: 70%;
+    margin: 15%;
+    margin-bottom: 0%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    padding: 5px;
+    
+}
+.cabecalho{
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    padding: 10px;
+        
+}
+.navegacao{
+    display: flex;
+    justify-content: flex-start;
+    gap: 23px;
+    padding-left: 90px;
+}
+
+/* LINKS DO CABEÇALHO DE NAVEGAÇÃO DO SITE*/
+.logomarca{ /*ONDE FICARÁ A LOGO*/
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 35px;
+     border-width: 3px;
+     border-color: black;
+     border-style: solid;
+     border-radius: 10px;
+     padding-left: 7px;
+     padding-right: 5px;
+     padding-block: 15px;
+     margin-right: 50px;
+     }
+
+.pagina-principal{/*LINK QUE DIRECIONA À PÁGINA PRINCIPAL  home */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 2em 2em 2em;
+    padding-top: 37px;
+} 
+
+.curiosidades{/*LINK QUE LEVA A CURIOSIDADE DE PONTOS DA CIDADE*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 2em 2em 2em;
+    padding-top: 37px;
+}
+.video-apresentacao{/*LINK QUE LEVA AO VÍDEO DE APRESENTAÇÃO*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 2em 2em 2em;
+    padding-top: 37px;
+}
+.cartao-postal{
+    height: 320px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    background-image: url("./imagens/Cidade-Flutuante.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ 
+.cabeca{
+    margin-top: 70px;
+    text-align: center;
+}
+.dicas{
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: red;*/
+    height: auto;
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.teatro{
+    /*border: solid;
+    border-width: 3px;
+    border-color: black;*/ 
+    border-radius: 13px;
+    width: 200px;  
+    height: 350px; 
+    margin-right: 28px;
+    background-image: url("./imagens/teatro-amazonas-1.jpg"); 
+}
+.encontro-das-aguas{
+    /*border: solid;
+    border-width: 3px;
+    border-color: yellowgreen;*/
+    border-radius: 13px; 
+    width: 200px;
+    height: 350px;
+    margin-right: 28px;
+    background-image: url("./imagens/encontro-das-aguas-1.jpg");
+}
+.mercado-municipal{
+    /*border: solid;
+    border-width: 3px;
+    border-color: black;*/
+    border-radius: 13px; 
+    width: 200px;
+    height: 350px;
+    background-image: url("./imagens/Mercado-Municipal.jpg");
+}
+
+.resumo{
+   /* border-style: solid;
+    border-width: 5px;
+    border-color: red;*/
+}
+
+.video{/*LINK QUE LEVA AO VÍDEO DE APRESENTAÇÃO*/
+   /* border-style: solid;
+    border-radius: 15px;*/
+    margin-left: 82px;
+    margin-right: 82px;
+}
+.apresentacao{
+    text-align: center;
+}
+.autor{
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    margin-top: 20px;
+    
+}
